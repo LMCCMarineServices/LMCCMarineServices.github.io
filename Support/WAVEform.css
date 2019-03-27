@@ -1,0 +1,153 @@
+#wrap{
+	width:525px;
+	height: 875px;
+	margin:0 auto;
+	text-align:left;
+	margin-top:5px;
+	padding:5px;
+	background:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+	color:rgb(94,111,119);
+	font-size:12px;    
+    line-height:10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px
+}
+#wrap .cont_details fieldset,.cont_order fieldset{
+	margin:10px;
+	padding:25px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+#wrap legend{
+	font-size:20px;
+	font-family:Georgia , "Georgia", Georgia, serif;
+	color:rgb(130,147,156);
+	font-weight:bold;
+	font-style:italic;
+    padding-bottom:5px;
+}
+#wrap .boat_pic{
+	width:400px;
+	height:176px; 
+	border:5px; 
+	border-color:rgb(0,0,0);
+	position: fixed;
+	top:145px;
+	margin-left: 62px;
+	margin-right: 62px;
+	visibility:hidden;
+}
+#wrap .boat_pic_fade{	
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#wrap .boat_pic_lines{
+	width:400px;
+	height:176px; 
+	border:5px; 
+	border-color:rgb(0,0,0);
+	position: fixed;
+	top:145px;
+	margin-left: 62px;
+	margin-right: 62px;
+	visibility: hidden;
+	stroke-linecap: round;
+	stroke: rgb(200,160,130);
+	stroke-width: 4;
+}
+#wrap .cont_details input{
+	margin-bottom:10px;
+	color:#000;
+}
+#wrap .input1:hover,.input1:active{
+	
+}
+#wrap td.leftcoltext{
+	font-size:12px;
+	padding-bottom:5px;
+}
+#wrap a {
+	text-decoration: none;
+	color:rgb(94,111,119);
+}
+#wrap a:hover {
+	text-decoration: none;
+	color: rgb(30,148,255);
+}
+#wrap label{
+    display:inline-block;
+    font-size:12px;
+    font-weight:normal;
+}
+#wrap label.inlinelabel
+{
+display:inline;
+}
+#wrap .cont_order input{
+margin-bottom:5px;
+}
+#wrap .cont_order p{
+padding-top:5px;
+}
+#wrap input.LMCC_Data{
+	border-radius:3px;
+	width:150px;
+	text-align: center;
+	font-size:12px;
+	color:rgb(94,111,119);
+}
+
+#wrap select:hover,
+#wrap select:active {
+background-color: rgb(30,148,255);
+
+}
+#wrap select-selected {
+	color:rgb(75,88,95);
+}
+
+#wrap select.TypeConfig{
+	border-radius:3px;
+	width:155px;
+	height:22px;
+	text-align: center;
+	font-size:12px;
+	color:rgb(94,111,119);
+	margin-bottom:5px;
+}
+#wrap input[type="text"]:hover,
+#wrap input[type="text"]:active {
+background-color: rgb(30,148,255);
+}
+#wrap input#submit
+{
+position: relative;
+width: 220 px;
+left: 30%;
+right: 30%;
+margin-top: 5px;
+margin-bottom: 20px;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+#wrap h3 {
+text-align: center; 
+font-family: arial; 
+font-size: 12px; 
+line-height: 0.8;
+color: rgb(0,100,190);
+}
+#wrap .LMCC_Link {
+position: absolute;
+padding-left: 15px;
+width:50px;
+height:50px;
+border:0";
+}
