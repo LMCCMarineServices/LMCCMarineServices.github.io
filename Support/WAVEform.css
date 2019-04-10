@@ -101,11 +101,9 @@ padding-top:5px;
 	font-size:12px;
 	color:rgb(94,111,119);
 }
-
 #wrap select:hover,
 #wrap select:active {
-background-color: rgb(30,148,255);
-
+background-color: rgb(210,215,220);
 }
 #wrap select-selected {
 	color:rgb(75,88,95);
@@ -122,7 +120,7 @@ background-color: rgb(30,148,255);
 }
 #wrap input[type="text"]:hover,
 #wrap input[type="text"]:active {
-background-color: rgb(30,148,255);
+background-color: rgb(210,215,220);
 }
 #wrap input#submit
 {
