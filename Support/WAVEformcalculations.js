@@ -98,7 +98,7 @@ case 15:
 }
 if (BallastWeight > 0) {TotWtResponse = TotWtResponse + ", ballast must be deactivated"
 						    document.getElementById("NoteOfTotWeightAcceptance").style.color = "rgb(230,120,75)";
-							document.getElementById("show_TWMetric").style.stroke = "rgb(255,0,0)"}
+							document.getElementById("show_TWMetric").style.stroke = "rgb(230,120,75)"}
 document.getElementById("NoteOfWetWeightAcceptance").innerHTML = WetWtResponse
 document.getElementById("NoteOfTotWeightAcceptance").innerHTML = TotWtResponse
 show_metrics();
