@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(130, 147, 156)">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>W.A.V.E.</title>
+<img src="Wave_Icons_Imgs/Banner-with-LMCC-logo_Grey.png" alt="W.A.V.E." 
+style="display:block; margin-left:auto; margin-right:auto; padding-bottom:5px; max-width:535px; height:auto; width:auto\9;">
+<link rel="shortcut icon" sizes="16x16" href="Wave_Icons_Imgs/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="57x57" href="Wave_Icons_Imgs/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="Wave_Icons_Imgs/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="Wave_Icons_Imgs/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="Wave_Icons_Imgs/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="Wave_Icons_Imgs/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="Wave_Icons_Imgs/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="Wave_Icons_Imgs/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="Wave_Icons_Imgs/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="Wave_Icons_Imgs/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="Wave_Icons_Imgs/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Wave_Icons_Imgs/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="Wave_Icons_Imgs/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Wave_Icons_Imgs/favicon-16x16.png">
+<link rel="manifest" href="Wave_Icons_Imgs/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="Wave_Icons_Imgs/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<script src="Support\WAVEformcalculations.js"></script>
+<link href="Support\WAVEform.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="alert">
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+		<strong>Welcome!</strong> The Marine Services Committee offers this tool to help guide your boat buying experience. 
+		The most important information you can provide is a means for us to contact you to begin our communication process.
+		It is best to either press TAB or use your mouse to navigate to the next entry box on the form, pressing ENTER will submit the form.
+		We understand that you may not have all of the information requested in the form below, fill out what you can. 
+		The four evaluation parameters at the bottom of the form will help guide you, updating as boat dimensions are entered. 
+		The more information we have, the more quickly we can give you an accurate evaluation of the boat (and get you on the lake)! 
+		You can press the RED X in the upper right to close this information box.
+	</div>
+    <div id="wrap">
+	<img id="show_boat" onmouseenter="remove_it()" class="boat_pic" src="Simple_Base_Box_Rnd.png">
+		<svg id="show_LgMetric" onmouseenter="remove_it()" class="boat_pic_lines" xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<line x1="22" y1="68" x2="346" y2="99" />
+		</svg>
+		<svg id="show_BmMetric" onmouseenter="remove_it()" class="boat_pic_lines" xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<line x1="346" y1="99" x2="381" y2="51" />
+		</svg>
+		<svg id="show_WWMetric" onmouseenter="remove_it()" class="boat_pic_lines" xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<line x1="346" y1="157" x2="346" y2="99" />
+		</svg>
+		<svg id="show_TWMetric" onmouseenter="remove_it()" class="boat_pic_lines" xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<line x1="346" y1="99" x2="346" y2="68" />
+		</svg>
+
+        <form id="Boatform" align="float" action="https://docs.google.com/forms/d/e/1FAIpQLSfSI60li3u7ansZx568G82JD2iirLJBRHGqGc9OhK8LLVu8Uw/formResponse" target="_self" method="POST" id="mG61Hd">
+        <div>
+            <div class="cont_order">
+				<fieldset>
+                <legend title="Please provide at least one way to contact you">How may we contact you?</legend>
+				<table title="Hints will appear when hovering over elements">
+				<colgroup>
+					<col width="125px">
+					<col width="160px">
+					<col width="160px">
+				</colgroup>
+					<tr>
+						<td title="Enter LMCC member's first name" style="leftcoltext">First name:</td>
+						<td><input class = "LMCC_Data" type="text" id="firstname" name="entry.1790899223" title="Enter LMCC member's first name" onfocus="this.value=''"></td>
+					</tr>
+					<tr>
+						<td title="Enter LMCC member's last name">Last name:</td>
+						<td><input class = "LMCC_Data" type="text" id="lastname" name="entry.902166925" title="Enter LMCC member's last name" onfocus="this.value=''"></td>
+						<td>  </td>
+					</tr>
+					<tr>
+						<td title="Enter LMCC member's email address">Email:</td>
+						<td><input class = "LMCC_Data" type="text" id="email" name="entry.362703255" title="Enter LMCC member's email address" onfocus="this.value=''"></td>
+					</tr>
+					<tr>
+						<td title="Enter LMCC member's phone number">Phone:</td>
+						<td><input class = "LMCC_Data" type="text" id="Phone" name="entry.1098634177" title="Enter LMCC member's phone number" onfocus="this.value=''"></td>
+					</tr>
+				</table>
+                </fieldset>
+            </div>
+        	<div class="cont_order">
+				<fieldset>
+                <legend title="Providing the information below will get you on the water sooner">Tell us about the boat</legend>
+                <table title="Direction is provided at the bottom of the&#10   form as measurement data is entered">
+				<colgroup>
+					<col width="125px">
+					<col width="160px">
+					<col width="160px">
+				</colgroup>		
+					<tr>
+						<td title="Providing the manufacturer's name is very important">Boat Manufacturer:</td>
+						<td><input class = "LMCC_Data" type="text" id="Boat Manufacturer" name="entry.294743451" title="Enter manufacturer" style="label"></td>
+					</tr>
+					<tr>
+						<td title="Providing the model helps us find information you may be missing">Boat Model:</td>
+						<td><input class = "LMCC_Data" type="text" id="Boat Model" name="entry.936453440" title="Enter model" style="label"></td>
+					</tr>
+					<tr>
+						<td title="Important design details can change year-to-year">Model Year:</td>
+						<td><input class = "LMCC_Data" type="text" id="Model Year" name="entry.670462290" title="Enter model year" style="label"></td>
+					</tr>
+					<tr>
+						<td title="Not needed for an inquiry, you will need this for NJ and LMCC registration">Hull Identification Number:</td>
+						<td><input class = "LMCC_Data" type="text" id="HIN" name="entry.1068869131" title="Enter hull identification number (HIN)" style="label"></td>
+					</tr>
+					<tr>
+						<td title="Many boats have engine manufacturer options">Engine Manufacturer:</td>
+						<td><input class = "LMCC_Data" type="text" id="Engine Manufacturer" name="entry.1687744857" title="Enter engine manufacturer" style="label"></td>
+					</tr>
+					<tr>
+						<td title="Manufacturers may have various engine models">Engine Model:</td>
+						<td><input class = "LMCC_Data" type="text" id="Engine Model" name="entry.57553056" title="Enter engine model" style="label"></td>
+					</tr>
+					<tr>
+						<td title="Most boats have several engine power options">Engine HP:</td>
+						<td><input class = "LMCC_Data" type="text" id="Engine HP" name="entry.2096558287" title="Enter engine horsepower" style="label"></td>
+					</tr>
+					<tr>
+						<td><a href="Docs\20190720_LMCC_Marine_Rules_Regs_2019_Leng.pdf" title= "22 feet, 0 inches (264 inches) or less is allowable &#10                Click here to see the regulation">Overall Length:</td>
+						<td ><input class = "LMCC_Data" type="text" id="OAL_FT" name="entry.1901334782" title="Enter length feet" style="label" onchange= 'Total_Length()'></td>
+						<td ><input class = "LMCC_Data" type="text" id="OAL_IN" name="entry.210764" title="Enter length inches" style="label" onchange= 'Total_Length()'></td>
+					</tr>
+					<tr>
+						<td><a href="Docs\20190720_LMCC_Marine_Rules_Regs_2019_Beam.pdf"  title= "8 feet, 6 inches (102 inches) or less is allowable &#10                Click here to see the regulation">Beam:</td>
+						<td ><input class = "LMCC_Data" type="text" id="Beam_FT" name="entry.662495574" title="Enter beam feet" style="label" onchange= "Total_Beam()"></td>
+						<td ><input class = "LMCC_Data" type="text" id="Beam_IN" name="entry.452690475" title="Enter beam inches" style="label" onchange= "Total_Beam()"></td>
+					</tr>
+					<tr>
+						<td title= "Operating fluid weight is added to this to calculate wet weight">Boat Weight (Dry):</td>
+						<td><input class = "LMCC_Data" type="text" id="Boat_Weight_Dry" name="entry.1192927766" title="Dry weight in pounds (shipping weight)" style="label" onchange= "Total_Weight()"></td>
+					</tr>
+					<tr>
+						<td><a href="Docs\20190720_LMCC_Marine_Rules_Regs_2019_WetW.pdf" title= "3600 pounds wet weight or less is allowable &#10          Click here to see the regulation">Boat Weight (Wet):</td>
+						<td><input class = "LMCC_Data" type="text" id="Boat_Weight_Wet" name="entry.1015214577" title="Wet weight in pounds" style="label" onchange= "Total_Weight()"></td>
+					</tr>
+					<tr>
+						<td title= "Fuel capacity is added dry weight to calculate wet weight">Fuel Capacity:</td>
+						<td><input class = "LMCC_Data" type="text" id="Fuel_Capacity" name="entry.52407176" title="Fuel capacity in gallons" style="label" onchange= "Total_Weight()"></td>
+					</tr>
+					<tr>
+						<td><a href="Docs\20190720_LMCC_Marine_Rules_Regs_2019_TotW.pdf" title= "5500 pounds total weight or less is allowable &#10           Click here to see the regulation">Weight Capacity:</td>
+						<td><input class = "LMCC_Data" type="text" id="Weight_Capacity" name="entry.1248863445" title="Weight capacity in pounds" style="label" onchange= "Total_Weight()"></td>
+					</tr>
+					<tr>
+						<td><a href="Docs\20190720_LMCC_Marine_Rules_Regs_2019_Blst.pdf" title="Integral ballast systems must be deactivated &#10            Click here to see the regulation">Ballast Weight:</td>
+						<td ><input class = "LMCC_Data" type="text" id="Ballast_Weight" name="entry.1277987558" title="Maximum ballast weight in pounds (if applicable)" style="label" onchange= "Total_Weight()"></td>
+					</tr>
+					<tr>
+						<td title="Manufacturers may offer multiple drive options for the same model">Drive Type:</td>
+						<td title="Manufacturers may offer multiple drive options for the same model">
+							<select class="TypeConfig" id="Drive_Type" name="entry.1248883632" onchange="calculateTotal()">
+							<option value="Outboard">Outboard</option>
+							<option value="I/O">I/O</option>
+							<option value="Direct-Drive">Direct-Drive</option>
+							<option value="V-Drive">V-Drive</option>
+							</select> 
+						</td>
+					</tr>
+					<tr>
+						<td title="This helps us quickly determine what type of boat we are evaluating">Hull Type:</td>
+						<td title="This helps us quickly determine what type of boat we are evaluating">
+							<select class="TypeConfig" id="Hull_Type" name="entry.1714054144" onchange="calculateTotal()">
+							<option value="Deep-Vee">Deep-Vee</option>
+							<option value="Shallow-Vee">Shallow-Vee</option>
+							<option value="Deckboat">Deckboat</option>
+							<option value="Pontoon">Pontoon</option>
+							<option value="Catamaran">Catamaran</option>
+							<option value="Trihull">Trihull</option>
+							<option value="Pickle-Fork">Pickle-Fork</option>
+							<option value="Skiff">Skiff</option>
+							</select> 
+						</td>
+					</tr>					
+				</table>
+                </fieldset>
+            </div>
+        </div>
+<a href="Docs\20190720_LMCC_Marine_Rules_Regs_2019.pdf" title="Click here to access the complete &#10 rules and regulations document">
+<img class= "LMCC_Link" src="Wave_Icons_Imgs/LMCC-logo_Rnd.png" alt="Marine Rules">
+</a>
+ 		<h3 id="NoteOfLengthAcceptance">Enter data to evaluate length</h3>
+		<h3	id="NoteOfBeamAcceptance">Enter data to evaluate beam</h3>
+		<h3	id="NoteOfWetWeightAcceptance">Enter data to evaluate wet weight</h3>
+		<h3	id="NoteOfTotWeightAcceptance">Enter data to evaluate total weight</h3>
+<input type="submit" id="submit" value="Submit Boat Data For Review"/>
+    </form>
+	</div><!--End of wrap-->
+</body>
+</html>
